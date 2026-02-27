@@ -45,3 +45,30 @@ Date:   Fri Feb 27 20:15:18 2026 +0530
 
     add index file with 5 lines of code
 
+PS D:\Web Dev Cohort 2026\github> git add .
+
+
+PS D:\Web Dev Cohort 2026\github> git commit -m "modified gitfile"
+[master cc04f44] modified gitfile
+ 1 file changed, 15 insertions(+)
+
+
+PS D:\Web Dev Cohort 2026\github> git log
+commit cc04f44c6d1b492f778199b8ccd6ee7678649554 (HEAD -> master)
+Author: ratnakar61 <panigrahiratnakar61@gmail.com>
+Date:   Fri Feb 27 20:22:28 2026 +0530
+
+    modified gitfile
+
+commit 9c8b2e12732b9d9550f957c1452af9bab421849c
+Author: ratnakar61 <panigrahiratnakar61@gmail.com>
+Date:   Fri Feb 27 20:15:18 2026 +0530
+
+    add index file with 5 lines of code
+
+PS D:\Web Dev Cohort 2026\github> git remote -v
+PS D:\Web Dev Cohort 2026\github> git remote add origin https://github.com/developer-ratnakar/webdev-cohort-2.0-git.git
+PS D:\Web Dev Cohort 2026\github> git remote -v
+origin  https://github.com/developer-ratnakar/webdev-cohort-2.0-git.git (fetch)
+origin  https://github.com/developer-ratnakar/webdev-cohort-2.0-git.git (push)
+
