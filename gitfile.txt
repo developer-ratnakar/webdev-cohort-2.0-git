@@ -30,3 +30,18 @@ Untracked files:
   (use "git add <file>..." to include in what will be committed)
         gitfile.txt
 
+PS D:\Web Dev Cohort 2026\github> git add .
+
+PS D:\Web Dev Cohort 2026\github> git commit -m "add index file with 5 lines of code"
+[master (root-commit) 9c8b2e1] add index file with 5 lines of code
+ 2 files changed, 37 insertions(+)
+ create mode 100644 gitfile.txt
+ create mode 100644 index.js
+
+PS D:\Web Dev Cohort 2026\github> git log
+commit 9c8b2e12732b9d9550f957c1452af9bab421849c (HEAD -> master)
+Author: ratnakar61 <panigrahiratnakar61@gmail.com>
+Date:   Fri Feb 27 20:15:18 2026 +0530
+
+    add index file with 5 lines of code
+
